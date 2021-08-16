@@ -1,11 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body, input, button {
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
 }
 
-.page-div{
+.page-div {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.nav-bar-div {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar-left-items {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    color: #222;
 }
