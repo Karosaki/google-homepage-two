@@ -43,3 +43,55 @@ body, input, button {
 
     color: #222;
 }
+
+.google-logo-div{
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+
+.google-logo-picture-area{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+
+.google-logo{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.search-bar-div{
+    max-height: 160px;
+
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+    padding: 20px;
+}
+
+.bottom-area-div{
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+    flex-grow: 1;
+}
+
+.footer-area-div{
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+    background: #f2f2f2;
+
+}
